@@ -1,4 +1,11 @@
 @charset "UTF-8";
 /* Add your custom CSS declarations below  */
 
+img {
+    max-width: 100% !important;
+    height: auto !important;
+}
 
+.intro-bg {
+    background-color: #eee;
+}
