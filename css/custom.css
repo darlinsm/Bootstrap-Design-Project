@@ -6,20 +6,48 @@ img {
     height: auto !important;
 }
 
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Nunito Sans', sans-serif; */
+    font-family: 'Mukta', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold !important;
+}
+
+.nav-link {
+    color: #000 !important;
+}
+
+.nav-link:hover {
+    color: #BF8A6A !important;
+}
+
+.active {
+    color: #BF8A6A !important;
+}
+
 .intro-bg {
     background-color: #eee;
 }
 
 .designs {
-    background: url(/images/IMG_4353.jpg);
+    /* background: url(/images/IMG_4353.jpg); */
+    background-color: red;
 }
 
 .photography {
-    background: url(/images/IMG_4353.jpg);
+    /* background: url(/images/IMG_4353.jpg); */
+    background-color: red;
 }
 
 .contact {
-    background: url(/images/IMG_4353.jpg);
+    /* background: url(/images/IMG_4353.jpg); */
+    background-color: red;
 }
 
 .btn {
