@@ -21,3 +21,17 @@ img {
 .contact {
     background: url(/images/IMG_4353.jpg);
 }
+
+.btn {
+    background-color: #BF8A6A;
+    color: #fff;
+    border-color: #BF8A6A;
+    border-radius: 0%;
+    padding: 10px 25px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+}
